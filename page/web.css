@@ -1,0 +1,26 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.navbar{
+    background-color: none;
+}
+body{
+  background-image: url("https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720051200&semt=ais_user");
+  background-size:cover;
+  width: 100%;
+  height: fit-content;
+  
+}
+.text p{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
