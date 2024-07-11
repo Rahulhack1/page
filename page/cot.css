@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: 'Quicksand', sans-serif;
 }
+.navbar{
+	height: 10%;
+}
 
 body{
 	height: 100vh;
@@ -110,12 +113,15 @@ textarea{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
 }
+.bttn{
+	width: 100px;
+    border: 0;
+    background-color: black;
+    color: #fff;
+    padding: 0 25px;
+    border-radius: 30px;
+    box-shadow: none;
 
-@media screen and (max-width: 880px){
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.left{
-		height: 200px;
-	}
 }
+
+
