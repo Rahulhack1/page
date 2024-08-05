@@ -5,6 +5,10 @@
 .navbar{
     background-color: none;
 }
+.nav-link{
+  color: red;
+  font-weight:bold ;
+}
 body img{
   background-size:cover;
   width: 100%;
@@ -15,6 +19,7 @@ body img{
 }
 .wrapper{
   background: #ececec;
+  background-size: cover;
   padding: 0 20px 0 20px;
 }
 .main{
@@ -27,13 +32,17 @@ body img{
   width: 900px;
   height: 550px;
   border-radius: 10px;
+  background-size: border-box;
+  box-sizing: border-box;
   background: #fff;
+  padding-right: auto;
   box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2) ;
 }
 .side-image{
     background-image: url("https://wallpapers.com/images/hd/night-mountain-2048-x-1536-sfruqbfors5ezfjl.jpg");
     background-position: center;
     background-size: cover;
+    border-radius: border-box;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px 0 0 10px;
@@ -42,11 +51,15 @@ body img{
   position: absolute;
   top: 50%;
   left:50%;
+  box-sizing: border-box;
+  text-size-adjust: auto;
   transform: translate(-50%, -50%);
 }
 .text p{
+  text-align: border-box;
   color: #fff;
-  font-size: 35px;
+  box-sizing: border-box;
+  font-size:28px;
 }
 i{
   font-weight: 400;
@@ -127,4 +140,8 @@ span a{
 span a:hover{
   text-decoration: underline;
   color: #000;
+}
+footer {
+  display: block;
+  background-color:white;
 }

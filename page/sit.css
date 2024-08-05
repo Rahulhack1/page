@@ -4,8 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.nav-link{
+    color: red;
+    font-weight:bold ;
+  }
 body{
     background-image: url("https://media.istockphoto.com/id/1315152008/photo/passport-airplane-tickets-yellow-suitcase-sun-hat-and-protective-face-mask-on-yellow.webp?b=1&s=170667a&w=0&k=20&c=7ZXNxfmh71Z7nJXKWFT4BY-Hp1XZQpgB_LipRf1y_L4=");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card-container{
     display: flex;
@@ -17,17 +23,18 @@ body{
     width: 325px;
     background-color: #f0f0f0;
     border-radius: 8px;
-    overflow: hidden
+    overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     margin: 20px;
     
 }
 .card img{
-    width: 325px;
+    width:border-box;
     height: auto;
 }
 .card-content{
     padding: 16px;
+    box-sizing: border-box;
 }
 .card-content h3{
     font-size: 28px;
@@ -45,4 +52,11 @@ body{
     border-radius: 4px;
     margin-top: 16px;
     
+}
+footer {
+    display: block;
+    margin-top: auto;
+    background-color: #f0f0f0;
+    unicode-bidi: isolate;
+    bottom: 0%;
 }

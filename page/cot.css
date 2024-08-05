@@ -5,7 +5,9 @@
 	font-family: 'Quicksand', sans-serif;
 }
 .navbar{
-	height: 10%;
+	height:50px;
+	text-align: center;
+	align-items:center;
 }
 
 body{
@@ -20,6 +22,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 	padding: 20px 100px;
 }
 
@@ -30,6 +33,7 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
+	overflow: hidden;
 	background: url("https://png.pngtree.com/thumb_back/fh260/background/20230426/pngtree-an-express-train-travelling-through-a-wooded-image_2547468.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
@@ -42,6 +46,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	overflow: hidden;
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
@@ -123,5 +128,9 @@ textarea{
     box-shadow: none;
 
 }
-
+footer {
+    display: block;
+    background-color: #f0f0f0;
+    unicode-bidi: isolate;
+}
 
